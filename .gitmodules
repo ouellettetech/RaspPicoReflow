@@ -1,0 +1,3 @@
+[submodule "picolcd"]
+	path = picolcd
+	url = https://github.com/ouellettetech/Pico-LCD-1.14
