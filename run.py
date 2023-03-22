@@ -1,7 +1,5 @@
-from machine import Pin,SPI,PWM
-import framebuf
+from machine import Pin,PWM
 import time
-from library.library import *
 from picolcd.picolcd import *
 from encodermenu.lcd_menu import *
 
@@ -14,7 +12,6 @@ CS = 9
 
 
 print("hello world")
-printhi()
 
 currentMenuItem=0
 numMenuItems=4
@@ -35,7 +32,7 @@ keyRight = Pin(20 ,Pin.IN,Pin.PULL_UP)#RIGHT
 LCD = LCD_1inch14()
 Menu = LCD_Menu(LCD)
 
-Menu.initMenu(LCD.black, LCD.green, LCD.red)
+Menu.initMenu(LCD.black, LCD.green, LCD.blue)
 Menu.display(0,"Main Menu","Select Profile","...","...","Start!")
 Menu.initKeys(keyA,keyB,keyUp,keyDown)
 
