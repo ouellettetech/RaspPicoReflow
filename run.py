@@ -32,7 +32,7 @@ keyRight = Pin(20 ,Pin.IN,Pin.PULL_UP)#RIGHT
 LCD = LCD_1inch14()
 Menu = LCD_Menu(LCD)
 
-Menu.initMenu(LCD.black, LCD.green, LCD.blue)
+Menu.initMenu(LCD.black, LCD.green, LCD.white)
 Menu.display(0,"Main Menu","Select Profile","...","...","Start!")
 Menu.initKeys(keyA,keyB,keyUp,keyDown)
 
