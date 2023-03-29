@@ -1,6 +1,6 @@
 [submodule "picolcd"]
 	path = picolcd
-	url = https://github.com/ouellettetech/Pico-LCD-1.14
+	url = https://github.com/ouellettetech/pico_lcd_1.14
 [submodule "encodermenu"]
 	path = encodermenu
-	url = https://github.com/sgall17a/encodermenu
+	url = https://github.com/ouellettetech/encodermenu
